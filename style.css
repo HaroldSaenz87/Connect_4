@@ -24,3 +24,11 @@ body{
     border-radius: 50%;
     border: 5px solid navy;
 }
+
+.red_piece{
+    background-color: red;
+}
+
+.yellow_pieces{
+    background-color: yellow;
+}
