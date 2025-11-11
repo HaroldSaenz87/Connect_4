@@ -1,6 +1,7 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    background: linear-gradient(135deg, #f0f4ff, #dfe9f3);
 }
 
 .Game{
@@ -31,4 +32,25 @@ body{
 
 .yellow_pieces{
     background-color: yellow;
+}
+
+.topBoard{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#restartBtn{
+    margin-left: 25px;
+    background-color: rgb(207, 212, 207);
+    padding: 5px;
+    border-radius: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+#restartBtn:hover{
+    background-color: rgb(159, 159, 159);
 }

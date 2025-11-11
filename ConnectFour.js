@@ -200,3 +200,8 @@ function setWin(r, c){
 
     gameOver = true;
 }
+
+function refreshPage()
+{
+    location.reload();
+}
